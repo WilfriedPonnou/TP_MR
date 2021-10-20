@@ -1,0 +1,22 @@
+[0m2021.10.20 19:14:38 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src' for client Visual Studio Code 1.61.1.[0m
+[0m2021.10.20 19:14:39 INFO  time: initialize in 0.84s[0m
+[0m2021.10.20 19:14:40 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.20 19:14:40 WARN  no build tool detected in workspace 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.10.20 19:14:40 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+[0m2021.10.20 19:14:45 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.20 19:14:50 INFO  time: code lens generation in 8.75s[0m
+[0m2021.10.20 19:19:26 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+[0m2021.10.20 19:25:16 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+[0m2021.10.20 19:25:22 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+oct. 20, 2021 7:26:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 333
+[0m2021.10.20 19:26:45 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+[0m2021.10.20 19:27:13 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+oct. 20, 2021 7:27:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 503
+[0m2021.10.20 19:28:03 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+[0m2021.10.20 19:28:03 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+[0m2021.10.20 19:28:48 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+something's wrong: no file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala in List[T]RangePosition(file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala, 1121, 1121, 1128)
+[0m2021.10.20 19:31:15 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+[0m2021.10.20 19:33:22 INFO  shutting down Metals[0m
