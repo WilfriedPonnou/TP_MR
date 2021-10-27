@@ -49,11 +49,20 @@ object TP_MR {
    */
 
   //TODO define nthA using : match, case, ::, Nil
-  def nthA[T](x: Int, l: List[T]): Option[T] = ???
+  def nthA[T](x: Int, l: List[T]): Option[T] = (x,l) match{
+    case (_,Nil) => None
+    case (0,element::_)=> Some(element)
+    case (k,head ::tail) if k<0 => None
+    case (_,head::tail) => nthA(x-1,tail)
+}
 
 
-  //TODO define nthB using method of the List collection
-  def nthB[T](x: Int, l: List[T]): Option[T] = ???
+  //TODO define nthB using methodte of the List collection
+  def nthB[T](x: Int, l: List[T]): Option[T] = {
+    if (x >= 0 && x < l.length) Some(l(x))
+    else None
+
+}
 
   /**
    * 3) Reverse a list:
@@ -64,10 +73,12 @@ object TP_MR {
    */
 
   //TODO define reverseA using : foldLeft, ::
-  def reverseA[T](list: List[T]): List[T] = ???
+  def reverseA[T](list: List[T]): List[T] = {
+    list.foldLeft(List[T]())((x,y)=>y::x)
+  }
 
   //TODO define reverseB using method of the List collection
-  def reverseB[T](list: List[T]): List[T] = ???
+  def reverseB[T](list: List[T]): List[T] = {list.reverse}
 
   /**
    * 4) Sum of wages:
@@ -82,7 +93,9 @@ object TP_MR {
 
   //TODO define salarySum which is the sum of the salaries from a list of employees
   //Hint it's a map reduce
-  def salarySum(employees: List[Employee]): Double = ???
+  def salarySum(employees: List[Employee]): Double = { /*J'ai mis Option[Double] au lieu de Double pour gérer liste vide*/
+    employees.map(employee=>employee.salary).reduceOption(_+_).getOrElse(0d)
+  }
 
 
   /**
@@ -97,7 +110,9 @@ object TP_MR {
   case class User(name: String, address: String)
 
   //TODO define addressOf which gives a list of addresses from a list of users
-  def addressOf(users: List[User]): List[String] = ???
+  def addressOf(users: List[User]): List[String] = {
+    users.map(user=>user.address)
+  }
 
   /**
    * 6) Define the average function (without .toList, or duplicates):
@@ -110,7 +125,11 @@ object TP_MR {
   //TODO define average which takes an Iterator of Double in parameter.
   //you can't use size, lengeth …
   //You can't use toList, toIterable, to whatever …
-  def average(values: Iterator[Double]): Option[Double] = ???
+  def average(values: Iterator[Double]): Option[Double] = {
+  if (values.isEmpty) None
+  else {Some(values.foldLeft((0.0, 1)) ((acc, i) => ((acc._1 + (i - acc._1) / acc._2), acc._2 + 1))._1)}
+  }
+  
 
   /**
    * 7) Monoids and almost MapReduce

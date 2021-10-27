@@ -1,0 +1,102 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(c0d70606-3716-4ad4-9ef8-8a73b7605c7c), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7172525e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"182","parents":[]},"eventTime":1634909508549,"message":"Compiling tp_mr","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala"},"buildTarget":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"182","parents":[]},"eventTime":1634909508596,"message":"Compiled tp_mr","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Compile"},"errors":0,"warnings":0,"time":47}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"183","parents":[]},"eventTime":1634909508619,"message":"Compiling tp_mr-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/test/scala/TP_MR.scala"},"buildTarget":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"183","parents":[]},"eventTime":1634909508639,"message":"Compiled tp_mr-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Test"},"errors":0,"warnings":0,"time":20}})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTP_MapReduce_Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- giveMeHelloString function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lastA function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lastB function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- nthA function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- nthB function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- reverseA function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- reverseB function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- salarySum function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- addressOf function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- average function *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:347)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TP_MR$.average(TP_MR.scala:128)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TP_MapReduce_Test.$anonfun$new$10(TP_MR.scala:67)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.funsuite.AnyFunSuiteLike$$anon$1.apply(AnyFunSuiteLike.scala:189)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- monoid *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:347)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TP_MR$.$anonfun$getRatingsByDepartement$1(TP_MR.scala:184)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.map(List.scala:219)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.map(List.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TP_MR$.getRatingsByDepartement(TP_MR.scala:182)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TP_MR$.skiRatingAverage(TP_MR.scala:287)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at TP_MapReduce_Test.$anonfun$new$11(TP_MR.scala:72)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mTP_MapReduce_Test:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- giveMeHelloString function\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- lastA function\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- lastB function\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- nthA function\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- nthB function\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- reverseA function\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- reverseB function\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- salarySum function\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- addressOf function\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m- average function *** FAILED ***\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  scala.NotImplementedError: an implementation is missing\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:347)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at TP_MR$.average(TP_MR.scala:128)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at TP_MapReduce_Test.$anonfun$new$10(TP_MR.scala:67)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at org.scalatest.funsuite.AnyFunSuiteLike$$anon$1.apply(AnyFunSuiteLike.scala:189)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  ...\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m- monoid *** FAILED ***\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  scala.NotImplementedError: an implementation is missing\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:347)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at TP_MR$.$anonfun$getRatingsByDepartement$1(TP_MR.scala:184)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at scala.collection.immutable.List.map(List.scala:219)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at scala.collection.immutable.List.map(List.scala:79)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at TP_MR$.getRatingsByDepartement(TP_MR.scala:182)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at TP_MR$.skiRatingAverage(TP_MR.scala:287)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at TP_MapReduce_Test.$anonfun$new$11(TP_MR.scala:72)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[31m  ...\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 237 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 11[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 9, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[36mRun completed in 237 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 11\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 9, failed 2, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[31m*** 2 TESTS FAILED ***\u001b[0m"})[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"Failed tests:"})[0m
+[0m[[0m[31merror[0m] [0m[0m	TP_MapReduce_Test[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"\tTP_MapReduce_Test"})[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Test / \u001b[31mtest\u001b[0m) sbt.TestsFailedException: Tests unsuccessful"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 22 oct. 2021 à 15:31:49[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///c%3A/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala"},"position":{"line":96,"character":4}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line:     employees.map(employee=>employee.salary).reduceOption(_+_).getOrElse(0d)[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol employees[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨17, shutdown, null})[0m

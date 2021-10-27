@@ -1,1 +1,1030 @@
 [0m2021.10.20 19:34:10 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.20 19:34:11 INFO  time: initialize in 1.31s[0m
+[0m2021.10.20 19:34:12 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.20 19:34:12 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+[0m2021.10.20 19:34:17 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+oct. 20, 2021 7:34:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 8
+[0m2021.10.20 19:34:22 INFO  time: code lens generation in 7.98s[0m
+[0m2021.10.20 19:34:22 INFO  time: code lens generation in 6.81s[0m
+[0m2021.10.20 19:34:29 INFO  running 'C:\Program Files\Java\jdk1.8.0_261\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\PONNOU~1\AppData\Local\Temp\metals5002052214142653553\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.10.20 19:34:32 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 1.8.0_261)[0m
+[0m2021.10.20 19:34:36 INFO  [info] loading settings for project tp_mr-build-build from metals.sbt ...[0m
+[0m2021.10.20 19:34:37 INFO  [info] loading project definition from C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\project\project[0m
+[0m2021.10.20 19:34:49 INFO  [info] loading settings for project tp_mr-build from metals.sbt ...[0m
+[0m2021.10.20 19:34:49 INFO  [info] loading project definition from C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\project[0m
+[0m2021.10.20 19:35:00 INFO  [success] Generated .bloop\tp_mr-build.json[0m
+[0m2021.10.20 19:35:00 INFO  [success] Total time: 10 s, completed 20 oct. 2021 19:35:00[0m
+[0m2021.10.20 19:35:02 INFO  [info] loading settings for project tp_mr from build.sbt ...[0m
+[0m2021.10.20 19:35:02 INFO  [info] set current project to TP_MR (in build file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/)[0m
+[0m2021.10.20 19:35:05 INFO  [success] Generated .bloop\tp_mr.json[0m
+[0m2021.10.20 19:35:05 INFO  [success] Generated .bloop\tp_mr-test.json[0m
+[0m2021.10.20 19:35:05 INFO  [success] Total time: 3 s, completed 20 oct. 2021 19:35:05[0m
+[0m2021.10.20 19:35:05 INFO  time: ran 'sbt bloopInstall' in 36s[0m
+[0m2021.10.20 19:35:05 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 38895'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop\tp_mr-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop\tp_mr.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Missing analysis file for project 'tp_mr-test'
+[0m[32m[D][0m Missing analysis file for project 'tp_mr'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:38895...
+The server is listening for incoming connections at tcp://127.0.0.1:38895...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.20 19:35:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.20 19:35:54 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19867'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19867...
+The server is listening for incoming connections at tcp://127.0.0.1:19867...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.20 19:35:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.20 19:36:01 INFO  time: Connected to build server in 55s[0m
+[0m2021.10.20 19:36:01 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.20 19:36:01 INFO  time: Imported build in 0.2s[0m
+[0m2021.10.20 19:36:06 INFO  time: indexed workspace in 5.14s[0m
+[0m2021.10.20 19:36:07 INFO  no build target: using presentation compiler with only scala-library: 2.13.1[0m
+[0m2021.10.20 19:36:07 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.20 19:36:27 INFO  compiling tp_mr-test (1 scala source)[0m
+[0m2021.10.20 19:36:27 INFO  time: compiled tp_mr in 20s[0m
+[0m2021.10.20 19:36:28 WARN  there was one deprecation warning (since 3.1.0); re-run with -deprecation for details[0m
+[0m2021.10.20 19:36:28 INFO  time: compiled tp_mr-test in 1.31s[0m
+oct. 20, 2021 7:37:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+[0m2021.10.20 19:42:31 INFO  shutting down Metals[0m
+[0m2021.10.20 19:42:31 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.20 19:42:31 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.10.21 12:45:00 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.21 12:45:02 INFO  time: initialize in 1.65s[0m
+[0m2021.10.21 12:45:04 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.21 12:45:04 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+[0m2021.10.21 12:45:04 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34914'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.21 12:45:12 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop\tp_mr.json'
+[0m[32m[D][0m Loading project from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop\tp_mr-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'tp_mr-test', 'tp_mr'
+[0m[32m[D][0m Loading previous analysis for 'tp_mr-test' from 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'tp_mr' from 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34914...
+The server is listening for incoming connections at tcp://127.0.0.1:34914...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.21 12:45:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.21 12:45:20 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25756'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25756...
+The server is listening for incoming connections at tcp://127.0.0.1:25756...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+oct. 21, 2021 12:45:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+oct. 21, 2021 12:45:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2
+[0m2021.10.21 12:45:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.21 12:45:21 INFO  time: Connected to build server in 17s[0m
+[0m2021.10.21 12:45:21 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.21 12:45:22 INFO  time: Imported build in 0.29s[0m
+[0m2021.10.21 12:45:26 INFO  time: indexed workspace in 4.59s[0m
+[0m2021.10.21 12:45:28 INFO  no build target: using presentation compiler with only scala-library: 2.13.1[0m
+[0m2021.10.21 15:49:15 INFO  shutting down Metals[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+oct. 21, 2021 3:49:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFOS: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy8.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:89)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:85)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SocketChannelImpl.ensureWriteOpen(SocketChannelImpl.java:268)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:459)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 14 more
+
+[0m2021.10.21 15:49:15 INFO  Shut down connection with build server.[0m
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@10141af5 rejected from java.util.concurrent.ThreadPoolExecutor@55169693[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 202]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m2021.10.22 11:08:48 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.22 11:08:48 INFO  time: initialize in 0.82s[0m
+[0m2021.10.22 11:08:49 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.22 11:08:48 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 42993'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop\tp_mr-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop\tp_mr.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'tp_mr-test', 'tp_mr'
+[0m[32m[D][0m Loading previous analysis for 'tp_mr' from 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'tp_mr-test' from 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:42993...
+The server is listening for incoming connections at tcp://127.0.0.1:42993...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.22 11:08:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.22 11:08:57 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 42043'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:42043...
+The server is listening for incoming connections at tcp://127.0.0.1:42043...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.22 11:08:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.22 11:08:57 INFO  time: Connected to build server in 8.22s[0m
+[0m2021.10.22 11:08:57 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.22 11:08:57 INFO  time: Imported build in 0.12s[0m
+[0m2021.10.22 11:09:01 INFO  time: indexed workspace in 3.62s[0m
+[0m2021.10.22 11:09:03 INFO  no build target: using presentation compiler with only scala-library: 2.13.1[0m
+[0m2021.10.22 12:05:32 INFO  shutting down Metals[0m
+[0m2021.10.22 12:05:32 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.22 12:05:32 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.22 12:49:24 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.22 12:49:25 INFO  time: initialize in 1.28s[0m
+[0m2021.10.22 12:49:27 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.22 12:49:27 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16615'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.22 12:49:35 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop\tp_mr-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop\tp_mr.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'tp_mr-test', 'tp_mr'
+[0m[32m[D][0m Loading previous analysis for 'tp_mr' from 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'tp_mr-test' from 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16615...
+The server is listening for incoming connections at tcp://127.0.0.1:16615...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.22 12:49:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.22 12:49:39 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 33167'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:33167...
+The server is listening for incoming connections at tcp://127.0.0.1:33167...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.22 12:49:40 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.22 12:49:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.22 12:49:40 INFO  time: Connected to build server in 12s[0m
+[0m2021.10.22 12:49:40 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.22 12:49:40 INFO  time: Imported build in 0.29s[0m
+[0m2021.10.22 12:49:45 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.22 12:49:47 INFO  time: code lens generation in 10s[0m
+[0m2021.10.22 12:49:47 INFO  time: indexed workspace in 7.08s[0m
+[0m2021.10.22 12:49:48 INFO  no build target: using presentation compiler with only scala-library: 2.13.1[0m
+[0m2021.10.22 12:49:49 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 12:49:58 INFO  compiling tp_mr-test (1 scala source)[0m
+[0m2021.10.22 12:49:58 INFO  time: compiled tp_mr in 9.17s[0m
+[0m2021.10.22 12:50:00 WARN  there was one deprecation warning (since 3.1.0); re-run with -deprecation for details[0m
+[0m2021.10.22 12:50:00 INFO  time: compiled tp_mr-test in 2.21s[0m
+oct. 22, 2021 12:51:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 13
+[0m2021.10.22 12:51:39 INFO  time: code lens generation in 9.49s[0m
+[0m2021.10.22 12:51:39 INFO  time: code lens generation in 6.96s[0m
+oct. 22, 2021 1:05:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+[0m2021.10.22 13:15:55 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:15:56 INFO  time: compiled tp_mr in 1.04s[0m
+something's wrong: no file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala in List[T]RangePosition(file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala, 1988, 1988, 1995)
+something's wrong: no file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala in List[T]RangePosition(file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala, 1987, 1987, 1994)
+[0m2021.10.22 13:17:19 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:17:21 INFO  time: compiled tp_mr in 1.57s[0m
+oct. 22, 2021 1:17:21 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFOS: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+[0m2021.10.22 13:18:56 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:18:57 INFO  time: compiled tp_mr in 1.33s[0m
+[0m2021.10.22 13:19:54 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:19:58 INFO  time: compiled tp_mr in 3.67s[0m
+oct. 22, 2021 1:21:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 643
+[0m2021.10.22 13:22:42 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:22:45 INFO  time: compiled tp_mr in 3.71s[0m
+something's wrong: no file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala in Iterator[Double]RangePosition(file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala, 3904, 3904, 3920)
+[0m2021.10.22 13:27:57 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:27:57 INFO  time: compiled tp_mr in 0.88s[0m
+[0m2021.10.22 13:28:21 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:28:21 INFO  time: compiled tp_mr in 0.58s[0m
+[0m2021.10.22 13:28:34 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:28:38 INFO  time: compiled tp_mr in 3.54s[0m
+[0m2021.10.22 13:34:04 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:34:04 INFO  time: compiled tp_mr in 0.45s[0m
+[0m2021.10.22 13:34:34 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:34:34 INFO  time: compiled tp_mr in 0.44s[0m
+oct. 22, 2021 1:37:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1059
+[0m2021.10.22 13:37:41 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:37:41 INFO  time: compiled tp_mr in 0.35s[0m
+oct. 22, 2021 1:38:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1065
+oct. 22, 2021 1:41:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1086
+oct. 22, 2021 1:41:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1087
+[0m2021.10.22 13:42:32 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:42:32 INFO  time: compiled tp_mr in 0.47s[0m
+[0m2021.10.22 13:43:21 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:43:25 INFO  time: compiled tp_mr in 3.78s[0m
+[0m2021.10.22 13:46:13 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:46:13 INFO  time: compiled tp_mr in 0.51s[0m
+[0m2021.10.22 13:49:00 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:49:00 INFO  time: compiled tp_mr in 0.37s[0m
+[0m2021.10.22 13:49:08 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:49:08 INFO  time: compiled tp_mr in 0.35s[0m
+[0m2021.10.22 13:49:22 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:49:26 INFO  time: compiled tp_mr in 3.35s[0m
+[0m2021.10.22 13:50:24 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:50:27 INFO  time: compiled tp_mr in 2.81s[0m
+oct. 22, 2021 1:50:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1296
+oct. 22, 2021 1:50:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1301
+[0m2021.10.22 13:54:11 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:54:11 INFO  time: compiled tp_mr in 0.39s[0m
+[0m2021.10.22 13:54:29 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:54:33 INFO  time: compiled tp_mr in 3.34s[0m
+oct. 22, 2021 1:56:12 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: String index out of range: -6
+java.lang.StringIndexOutOfBoundsException: String index out of range: -6
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1235)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1258)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:180)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+[0m2021.10.22 13:57:05 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:57:05 INFO  time: compiled tp_mr in 0.4s[0m
+[0m2021.10.22 13:58:05 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 13:58:05 INFO  time: compiled tp_mr in 0.4s[0m
+[0m2021.10.22 14:00:14 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:00:14 INFO  time: compiled tp_mr in 0.38s[0m
+[0m2021.10.22 14:06:35 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:06:35 INFO  time: compiled tp_mr in 0.26s[0m
+[0m2021.10.22 14:06:47 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:06:47 INFO  time: compiled tp_mr in 0.43s[0m
+[0m2021.10.22 14:10:43 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:10:43 INFO  time: compiled tp_mr in 0.23s[0m
+oct. 22, 2021 2:16:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1933
+[0m2021.10.22 14:16:28 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:16:28 INFO  time: compiled tp_mr in 0.39s[0m
+[0m2021.10.22 14:16:48 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:16:51 INFO  time: compiled tp_mr in 3.18s[0m
+[0m2021.10.22 14:21:21 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:21:21 INFO  time: compiled tp_mr in 0.5s[0m
+[0m2021.10.22 14:24:07 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:24:07 INFO  time: compiled tp_mr in 0.3s[0m
+[0m2021.10.22 14:27:53 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:27:56 INFO  time: compiled tp_mr in 3.21s[0m
+[0m2021.10.22 14:28:19 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:28:22 INFO  time: compiled tp_mr in 2.91s[0m
+[0m2021.10.22 14:34:26 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:34:26 INFO  time: compiled tp_mr in 0.41s[0m
+[0m2021.10.22 14:38:40 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:38:40 INFO  time: compiled tp_mr in 0.31s[0m
+[0m2021.10.22 14:40:16 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:40:16 INFO  time: compiled tp_mr in 0.33s[0m
+[0m2021.10.22 14:40:25 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:40:25 INFO  time: compiled tp_mr in 0.35s[0m
+oct. 22, 2021 2:40:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2492
+[0m2021.10.22 14:41:32 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:32 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:33 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:33 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:33 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:33 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:33 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:33 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:34 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:34 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:34 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:34 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:36 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:36 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:36 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:36 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:38 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:38 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:38 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:38 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:39 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:39 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:39 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:38 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:40 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:40 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:40 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:41 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:41 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:41 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:41 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:41 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:41 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:41 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:42 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:42 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:42 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:43 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:44 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:44 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:44 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:45 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:44 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:45 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:46 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:46 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:48 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:48 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:48 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:49 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:50 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:50 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:50 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:50 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:52 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:52 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:52 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:52 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:52 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:52 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:52 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:52 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:53 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:53 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:53 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:53 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:55 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:55 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:55 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:55 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:55 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:55 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:57 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:57 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:57 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:57 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:57 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:57 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:58 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:57 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:58 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:41:58 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:42:00 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:42:00 INFO  C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:97:5: stale bloop error: type mismatch;
+ found   : Option[Double]
+ required: Double
+    employees.map(employee=>employee.salary).reduceOption(_ + _)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.10.22 14:42:03 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:42:06 INFO  time: compiled tp_mr in 2.84s[0m
+[0m2021.10.22 14:42:23 INFO  compiling tp_mr-test (1 scala source)[0m
+[0m2021.10.22 14:42:26 WARN  there was one deprecation warning (since 3.1.0); re-run with -deprecation for details[0m
+[0m2021.10.22 14:42:26 INFO  time: compiled tp_mr-test in 2.97s[0m
+oct. 22, 2021 2:42:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2660
+[0m2021.10.22 14:43:03 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:43:03 INFO  time: compiled tp_mr in 0.41s[0m
+[0m2021.10.22 14:43:39 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:43:39 INFO  time: compiled tp_mr in 0.29s[0m
+[0m2021.10.22 14:43:51 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:43:51 INFO  time: compiled tp_mr in 0.32s[0m
+[0m2021.10.22 14:45:56 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:45:56 INFO  time: compiled tp_mr in 0.3s[0m
+[0m2021.10.22 14:46:59 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:46:59 INFO  time: compiled tp_mr in 0.34s[0m
+[0m2021.10.22 14:47:29 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:47:31 INFO  time: compiled tp_mr in 2.41s[0m
+[0m2021.10.22 14:47:41 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:47:41 INFO  time: compiled tp_mr in 0.3s[0m
+oct. 22, 2021 2:48:19 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: String index out of range: -1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1235)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1258)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+[0m2021.10.22 14:48:24 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:48:24 INFO  time: compiled tp_mr in 0.15s[0m
+[0m2021.10.22 14:48:34 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:48:34 INFO  time: compiled tp_mr in 0.21s[0m
+[0m2021.10.22 14:48:46 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:48:49 INFO  time: compiled tp_mr in 3.04s[0m
+[0m2021.10.22 14:51:39 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:51:39 INFO  time: compiled tp_mr in 0.28s[0m
+[0m2021.10.22 14:55:33 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:55:33 INFO  time: compiled tp_mr in 0.3s[0m
+[0m2021.10.22 14:56:50 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:56:53 INFO  time: compiled tp_mr in 2.79s[0m
+[0m2021.10.22 14:57:38 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:57:38 INFO  time: compiled tp_mr in 0.37s[0m
+[0m2021.10.22 14:57:50 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 14:57:50 INFO  time: compiled tp_mr in 0.23s[0m
+[0m2021.10.22 15:01:17 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:01:17 INFO  time: compiled tp_mr in 0.31s[0m
+[0m2021.10.22 15:05:54 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:05:57 INFO  time: compiled tp_mr in 2.75s[0m
+[0m2021.10.22 15:06:25 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:06:25 INFO  time: compiled tp_mr in 0.25s[0m
+[0m2021.10.22 15:07:14 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:07:14 INFO  time: compiled tp_mr in 0.32s[0m
+[0m2021.10.22 15:07:41 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:07:41 INFO  time: compiled tp_mr in 0.27s[0m
+oct. 22, 2021 3:07:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3509
+[0m2021.10.22 15:10:47 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:10:47 INFO  time: compiled tp_mr in 0.25s[0m
+[0m2021.10.22 15:16:07 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:16:07 INFO  time: compiled tp_mr in 0.32s[0m
+[0m2021.10.22 15:17:02 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:17:04 INFO  time: compiled tp_mr in 2.59s[0m
+[0m2021.10.22 15:18:47 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:18:47 INFO  time: compiled tp_mr in 0.26s[0m
+[0m2021.10.22 15:19:13 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:19:13 INFO  time: compiled tp_mr in 0.3s[0m
+[0m2021.10.22 15:20:33 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:20:33 INFO  time: compiled tp_mr in 0.3s[0m
+[0m2021.10.22 15:20:59 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:20:59 INFO  time: compiled tp_mr in 0.33s[0m
+[0m2021.10.22 15:21:24 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:21:24 INFO  time: compiled tp_mr in 0.33s[0m
+[0m2021.10.22 15:25:09 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:25:09 INFO  time: compiled tp_mr in 0.27s[0m
+[0m2021.10.22 15:27:41 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:27:44 INFO  time: compiled tp_mr in 2.78s[0m
+oct. 22, 2021 3:31:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4122
+[0m2021.10.22 15:31:32 INFO  compiling tp_mr-test (1 scala source)[0m
+[0m2021.10.22 15:31:34 WARN  there was one deprecation warning (since 3.1.0); re-run with -deprecation for details[0m
+[0m2021.10.22 15:31:34 INFO  time: compiled tp_mr-test in 2.66s[0m
+oct. 22, 2021 3:31:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4131
+something's wrong: no file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala in List[TP_MR.User]RangePosition(file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala, 3683, 3683, 3693)
+[0m2021.10.22 15:31:45 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:31:47 INFO  time: compiled tp_mr in 2.59s[0m
+oct. 22, 2021 3:42:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 4470
+[0m2021.10.22 15:45:28 INFO  shutting down Metals[0m
+[0m2021.10.22 15:45:28 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.22 15:45:28 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.22 15:45:56 INFO  Started: Metals version 0.10.7 in workspace 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.22 15:45:57 INFO  time: initialize in 0.95s[0m
+[0m2021.10.22 15:45:58 INFO  Attempting to connect to the build server...[0m
+[0m2021.10.22 15:45:58 WARN  no build target for: C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala[0m
+[0m2021.10.22 15:45:59 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 18498'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:18498...
+The server is listening for incoming connections at tcp://127.0.0.1:18498...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.22 15:46:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.22 15:46:01 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40811'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40811...
+The server is listening for incoming connections at tcp://127.0.0.1:40811...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.22 15:46:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.22 15:46:02 INFO  time: Connected to build server in 3.88s[0m
+[0m2021.10.22 15:46:02 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.22 15:46:05 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.22 15:46:05 INFO  time: Imported build in 0.13s[0m
+[0m2021.10.22 15:46:07 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.22 15:46:15 INFO  time: code lens generation in 14s[0m
+[0m2021.10.22 15:46:19 INFO  time: indexed workspace in 13s[0m
+[0m2021.10.22 15:46:20 INFO  no build target: using presentation compiler with only scala-library: 2.13.1[0m
+[0m2021.10.22 15:50:33 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:50:33 INFO  time: compiled tp_mr in 0.73s[0m
+oct. 22, 2021 3:50:34 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFOS: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+[0m2021.10.22 15:53:00 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:53:00 INFO  time: compiled tp_mr in 0.45s[0m
+[0m2021.10.22 15:53:29 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:53:29 INFO  time: compiled tp_mr in 0.29s[0m
+[0m2021.10.22 15:53:34 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:53:34 INFO  time: compiled tp_mr in 0.33s[0m
+[0m2021.10.22 15:53:43 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:53:43 INFO  time: compiled tp_mr in 0.27s[0m
+[0m2021.10.22 15:54:14 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:54:14 INFO  time: compiled tp_mr in 0.39s[0m
+[0m2021.10.22 15:59:08 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:59:08 INFO  time: compiled tp_mr in 0.45s[0m
+[0m2021.10.22 15:59:13 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 15:59:13 INFO  time: compiled tp_mr in 0.34s[0m
+[0m2021.10.22 16:01:30 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 16:01:30 INFO  time: compiled tp_mr in 0.35s[0m
+[0m2021.10.22 16:03:10 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.22 16:03:10 INFO  time: compiled tp_mr in 0.3s[0m
+[0m2021.10.22 16:03:15 INFO  shutting down Metals[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.22 16:03:15 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.10.22 16:03:15 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

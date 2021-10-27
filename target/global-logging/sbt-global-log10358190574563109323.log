@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@71d37ecd, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"180","parents":[]},"eventTime":1634909505413,"message":"Compiling tp_mr","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\PONNOU Wilfried\\Desktop\\Nouveau dossier\\tpMR\\TP_MR\\target\\scala-2.13\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala"},"buildTarget":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"180","parents":[]},"eventTime":1634909506110,"message":"Compiled tp_mr","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Compile"},"errors":0,"warnings":0,"time":697}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"181","parents":[]},"eventTime":1634909506132,"message":"Compiling tp_mr-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/test/scala/TP_MR.scala"},"buildTarget":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"181","parents":[]},"eventTime":1634909506141,"message":"Compiled tp_mr-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Test"},"errors":0,"warnings":0,"time":9}})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 22 oct. 2021 à 15:31:46[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@7dbf92aa, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\target\scala-2.13\zinc\inc_compile_2.13.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 22 oct. 2021 à 15:31:46[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

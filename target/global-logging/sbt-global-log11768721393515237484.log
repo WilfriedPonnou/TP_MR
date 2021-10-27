@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@780a91d0, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"19","parents":[]},"eventTime":1634911390898,"message":"Compiling tp_mr","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\PONNOU Wilfried\\Desktop\\Nouveau dossier\\tpMR\\TP_MR\\target\\scala-2.13\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala"},"buildTarget":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Compile"},"diagnostics":[{"range":{"start":{"line":132,"character":14},"end":{"line":132,"character":15}},"severity":1,"source":"sbt","message":"overloaded method value % with alternatives:\n  (x: Double)Double <and>\n  (x: Float)Double <and>\n  (x: Long)Double <and>\n  (x: Int)Double <and>\n  (x: Char)Double <and>\n  (x: Short)Double <and>\n  (x: Byte)Double\n cannot be applied to (AnyVal)"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\src\main\scala\TP_MR.scala:133:15: overloaded method value % with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Double)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Float)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Long)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Int)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Char)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Short)Double <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Byte)Double[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (AnyVal)[0m
+[0m[[0m[31merror[0m] [0m[0m        Some(s%t)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\PONNOU Wilfried\\Desktop\\Nouveau dossier\\tpMR\\TP_MR\\src\\main\\scala\\TP_MR.scala:133:15: overloaded method value % with alternatives:\n  (x: Double)Double <and>\n  (x: Float)Double <and>\n  (x: Long)Double <and>\n  (x: Int)Double <and>\n  (x: Char)Double <and>\n  (x: Short)Double <and>\n  (x: Byte)Double\n cannot be applied to (AnyVal)"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"        Some(s%t)"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"              ^"})[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"one error found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/src/main/scala/TP_MR.scala"},"buildTarget":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Compile"},"diagnostics":[{"range":{"start":{"line":132,"character":14},"end":{"line":132,"character":15}},"severity":1,"source":"sbt","message":"overloaded method value % with alternatives:\n  (x: Double)Double <and>\n  (x: Float)Double <and>\n  (x: Long)Double <and>\n  (x: Int)Double <and>\n  (x: Char)Double <and>\n  (x: Short)Double <and>\n  (x: Byte)Double\n cannot be applied to (AnyVal)"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"19","parents":[]},"eventTime":1634911391383,"message":"Compiled tp_mr","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/PONNOU%20Wilfried/Desktop/Nouveau%20dossier/tpMR/TP_MR/#tp_mr/Compile"},"errors":1,"warnings":0,"time":485}})[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched json error for requestId None: {"code":-32603,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"}[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 22 oct. 2021 à 16:03:11[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨5, shutdown, null})[0m
