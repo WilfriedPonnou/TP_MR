@@ -1028,3 +1028,104 @@ No more data in the client stdin, exiting...
 [0m2021.10.22 16:03:15 INFO  Shut down connection with build server.[0m
 No more data in the client stdin, exiting...
 No more data in the server stdin, exiting...
+[0m2021.10.27 19:17:43 INFO  Started: Metals version 0.10.8 in workspace 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR' for client Visual Studio Code 1.61.2.[0m
+[0m2021.10.27 19:17:47 INFO  time: initialize in 4.58s[0m
+[0m2021.10.27 19:17:49 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+[0m2021.10.27 19:17:49 INFO  skipping build import with status 'Installed'[0m
+Opening a bsp server connection with 'bsp --protocol tcp --port 21468'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.27 19:18:01 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.10-8-8d1cbc4f...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop\tp_mr-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\.bloop\tp_mr.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\PONNOU Wilfried\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'tp_mr', 'tp_mr-test'
+[0m[32m[D][0m Loading previous analysis for 'tp_mr' from 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'tp_mr-test' from 'C:\Users\PONNOU Wilfried\Desktop\Nouveau dossier\tpMR\TP_MR\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21468...
+The server is listening for incoming connections at tcp://127.0.0.1:21468...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.27 19:18:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.27 19:18:04 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 21871'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:21871...
+The server is listening for incoming connections at tcp://127.0.0.1:21871...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.27 19:18:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\PONNOU Wilfried\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.10.27 19:18:05 INFO  time: Connected to build server in 16s[0m
+[0m2021.10.27 19:18:05 INFO  Connected to Build server: Bloop v1.4.10-8-8d1cbc4f[0m
+[0m2021.10.27 19:18:24 INFO  time: code lens generation in 33s[0m
+[0m2021.10.27 19:18:25 INFO  time: Imported build in 0.33s[0m
+[0m2021.10.27 19:18:31 INFO  time: indexed workspace in 6.77s[0m
+[0m2021.10.27 19:18:33 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.27 19:18:36 INFO  no build target: using presentation compiler with only scala-library: 2.13.1[0m
+[0m2021.10.27 19:19:00 INFO  time: compiled tp_mr in 26s[0m
+[0m2021.10.27 19:19:03 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.27 19:19:03 INFO  time: compiled tp_mr in 0.93s[0m
+oct. 27, 2021 7:30:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 121
+oct. 27, 2021 7:31:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 186
+[0m2021.10.27 19:32:24 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.27 19:32:24 INFO  time: compiled tp_mr in 0.61s[0m
+oct. 27, 2021 7:33:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 248
+[0m2021.10.27 19:35:24 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.27 19:35:24 INFO  time: compiled tp_mr in 0.77s[0m
+oct. 27, 2021 7:36:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+oct. 27, 2021 7:36:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.10.27 19:36:41 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.27 19:36:41 INFO  time: compiled tp_mr in 0.61s[0m
+[0m2021.10.27 19:37:04 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.27 19:37:04 INFO  time: compiled tp_mr in 0.46s[0m
+[0m2021.10.27 19:43:43 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.27 19:43:43 INFO  time: compiled tp_mr in 0.65s[0m
+[0m2021.10.27 19:46:30 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.27 19:46:30 INFO  time: compiled tp_mr in 0.16s[0m
+[0m2021.10.27 19:46:47 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.27 19:46:47 INFO  time: compiled tp_mr in 0.16s[0m
+[0m2021.10.27 19:47:14 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.27 19:47:14 INFO  time: compiled tp_mr in 0.52s[0m
+[0m2021.10.27 19:47:51 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.10.27 19:47:55 INFO  time: compiled tp_mr in 4.16s[0m
+oct. 27, 2021 7:48:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
